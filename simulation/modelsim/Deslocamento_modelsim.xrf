@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Abel Menezes/Google Drive/LOGICA RECONFIGURAVEL/CODIGOS/DESLOCAMENTO/Deslocamento.vhd
+source_file = 1, C:/Users/Abel Menezes/Google Drive/LOGICA RECONFIGURAVEL/CODIGOS/DESLOCAMENTO/Waveform.vwf
+source_file = 1, C:/Users/Abel Menezes/Google Drive/LOGICA RECONFIGURAVEL/CODIGOS/DESLOCAMENTO/db/Deslocamento.cbx.xml
+source_file = 1, c:/altera/13.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Deslocamento
+instance = comp, \dout~output , dout~output, Deslocamento, 1
+instance = comp, \clk~input , clk~input, Deslocamento, 1
+instance = comp, \din~input , din~input, Deslocamento, 1
+instance = comp, \rst~input , rst~input, Deslocamento, 1
+instance = comp, \dout~reg0 , dout~reg0, Deslocamento, 1
